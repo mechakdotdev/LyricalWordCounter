@@ -3,7 +3,8 @@
 Netwonsoft.Json
 
 ## Instructions
-The program will begin after you enter the 'dotnet run' command. You will be asked to enter an artist's name; if you do not enter a name you will be asked again until a name has been entered.
+This program was written using Visual Studio Code with .NET 6 and C# as a command line application. 
+To run the program enter the 'dotnet run' command in the terminal. You will be asked to enter an artist's name; if you do not enter a name you will be asked again until a name has been entered.
 
 ## Self-reflection / Future Improvements
  - With more time I could have worked on a method to remove the first line from the lyrics.ovh response which is the title of the song, so that the program is more accurate.
