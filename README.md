@@ -1,7 +1,7 @@
 # LyricsAPIClient
 ## Required packages:
-Netwonsoft.Json
-.NET 6
+- Netwonsoft.Json
+- .NET 6
 
 ## Instructions
 This program was written using Visual Studio Code with .NET 6 and C# as a command line application. 
