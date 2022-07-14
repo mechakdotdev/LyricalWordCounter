@@ -41,7 +41,6 @@ namespace LyricsAPIClient
 
                     var currentLyrics = await Repository.GetLyricsAsync(currentSong);
 
-                    //Condition to ignore any songs where the lyrics could not be found.
                     if (currentLyrics.Lyrics != null)
                     {
                         numberOfSongs += 1;

@@ -75,13 +75,10 @@ namespace LyricsAPIClient.Repositories
 
             while (index < lyrics.Length)
             {
-                // check if current char is part of a word
                 while (index < lyrics.Length && !char.IsWhiteSpace(lyrics[index]))
                     index++;
+                    wordCount++;
 
-                wordCount++;
-
-                // skip whitespace until next word
                 while (index < lyrics.Length && char.IsWhiteSpace(lyrics[index]))
                     index++;
             }
