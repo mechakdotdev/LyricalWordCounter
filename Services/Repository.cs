@@ -69,7 +69,6 @@ namespace LyricsAPIClient.Repositories
         {
             int wordCount = 0, index = 0;
 
-            // skip whitespace until first word is found
             while (index < lyrics.Length && char.IsWhiteSpace(lyrics[index]))
                 index++;
 
