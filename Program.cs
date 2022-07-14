@@ -18,22 +18,8 @@ namespace LyricsAPIClient
                 Console.WriteLine("You must enter an artist name:\n");
                 chosenArtist = Console.ReadLine();
             }
-
-            await TestWordCounter(chosenArtist);
-            //await DetermineAverageWords(chosenArtist);
-        }
-
-        private static async Task TestWordCounter(string artist)
-        {
-            Console.WriteLine("Song Title:");
-            var title = Console.ReadLine();
-
-            var request = new LyricsRequest{ Artist = artist, Title = title };
-            var lyrics = (await Repository.GetLyricsAsync(request)).Lyrics ?? "";
-            // Console.WriteLine(lyrics);
-
-            var wordCount = Repository.GetWordCount(lyrics);
-            Console.WriteLine($"WordCount: {wordCount}");
+            
+            await DetermineAverageWords(chosenArtist);
         }
 
         private static async Task DetermineAverageWords(string artist)
