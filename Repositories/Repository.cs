@@ -34,15 +34,15 @@ namespace LyricsAPIClient.Repositories
             }
         }
 
-        public static async Task<TracksResponse> GetAllTracksAsync(string chosenArtist)
+        public static async Task<TracksResponse> GetAllTracksAsync(string artist)
         {
-            Console.WriteLine($"Getting all tracks by {chosenArtist}...\nPlease wait...\n");
+            Console.WriteLine($"Getting all tracks by {artist}...\nPlease wait...\n");
 
             var client = new HttpClient();
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri($"https://api.deezer.com/search?q={chosenArtist}")
+                RequestUri = new Uri($"https://api.deezer.com/search?q={artist}")
             };
             using (var response = await client.SendAsync(request))
             {
@@ -67,22 +67,23 @@ namespace LyricsAPIClient.Repositories
 
         public static int GetWordCount(string lyrics)
         {
-            int wordCount = 0, index = 0;
+            int count = 0, i = 0;
+            bool isWord = false;
 
-            while (index < lyrics.Length && char.IsWhiteSpace(lyrics[index]))
-                index++;
-
-            while (index < lyrics.Length)
+            while (i < lyrics.Length)
             {
-                while (index < lyrics.Length && !char.IsWhiteSpace(lyrics[index]))
-                    index++;
-                    wordCount++;
+                if (char.IsWhiteSpace(lyrics[i]) || lyrics[i] == '\n' || lyrics[i] == '\t') {
+                    isWord = false;
+                }
+                else if (isWord == false) {
+                    isWord = true;
+                    count++;
+                }
 
-                while (index < lyrics.Length && char.IsWhiteSpace(lyrics[index]))
-                    index++;
+                i++;
             }
 
-            return wordCount;
+            return count;
         }
     }
 }

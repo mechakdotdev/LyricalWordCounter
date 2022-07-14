@@ -19,15 +19,29 @@ namespace LyricsAPIClient
                 chosenArtist = Console.ReadLine();
             }
 
-            await DetermineAverageWords(chosenArtist);
+            await TestWordCounter(chosenArtist);
+            //await DetermineAverageWords(chosenArtist);
         }
 
-        private static async Task DetermineAverageWords(string chosenArtist)
+        private static async Task TestWordCounter(string artist)
+        {
+            Console.WriteLine("Song Title:");
+            var title = Console.ReadLine();
+
+            var request = new LyricsRequest{ Artist = artist, Title = title };
+            var lyrics = (await Repository.GetLyricsAsync(request)).Lyrics ?? "";
+            // Console.WriteLine(lyrics);
+
+            var wordCount = Repository.GetWordCount(lyrics);
+            Console.WriteLine($"WordCount: {wordCount}");
+        }
+
+        private static async Task DetermineAverageWords(string artist)
         {
             var totalWords = 0;
             var numberOfSongs = 0;
 
-            var allTracks = await Repository.GetAllTracksAsync(chosenArtist);
+            var allTracks = await Repository.GetAllTracksAsync(artist);
 
             if (allTracks.Data != null)
             {
@@ -35,7 +49,7 @@ namespace LyricsAPIClient
                 {
                     var currentSong = new LyricsRequest
                     {
-                        Artist = chosenArtist,
+                        Artist = artist,
                         Title = track.Title
                     };
 
@@ -51,7 +65,7 @@ namespace LyricsAPIClient
 
             if (allTracks.Data != null)
             {
-                Console.WriteLine($"The average number of words in a song by {chosenArtist} is {totalWords / numberOfSongs}");
+                Console.WriteLine($"The average number of words in a song by {artist} is {totalWords / numberOfSongs}");
             }
         }
     }
