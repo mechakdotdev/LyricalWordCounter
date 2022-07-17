@@ -1,32 +1,49 @@
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.exe
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.deps.json
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.runtimeconfig.json
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.pdb
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.csproj.AssemblyReference.cache
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.AssemblyInfoInputs.cache
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.AssemblyInfo.cs
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.csproj.CoreCompileInputs.cache
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\refint\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.pdb
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.genruntimeconfig.cache
-C:\Users\Mechak\Documents\Coding Projects\LyricsAPIClient\obj\Debug\net6.0\ref\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.exe
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.deps.json
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.runtimeconfig.json
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\LyricsAPIClient.pdb
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.csproj.AssemblyReference.cache
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.AssemblyInfoInputs.cache
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.AssemblyInfo.cs
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.csproj.CoreCompileInputs.cache
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\refint\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.pdb
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.genruntimeconfig.cache
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\ref\LyricsAPIClient.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Mechak\Documents\Coding Projects\Local Repos\LyricsAPIClient\obj\Debug\net6.0\LyricsAPIClient.csproj.CopyComplete
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.exe
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.deps.json
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.runtimeconfig.json
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.pdb
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.AssemblyReference.cache
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfoInputs.cache
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfo.cs
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.CoreCompileInputs.cache
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/refint/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.pdb
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.genruntimeconfig.cache
+C:/Users/Mechak/Documents/Coding Projects/LyricsAPIClient/obj/Debug/net6.0/ref/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.exe
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.deps.json
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.runtimeconfig.json
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.pdb
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.AssemblyReference.cache
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfoInputs.cache
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfo.cs
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.CoreCompileInputs.cache
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/refint/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.pdb
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.genruntimeconfig.cache
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/ref/LyricsAPIClient.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/Mechak/Documents/Coding Projects/Local Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.CopyComplete
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.deps.json
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.runtimeconfig.json
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.dll
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/LyricsAPIClient.pdb
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.AssemblyReference.cache
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfoInputs.cache
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.AssemblyInfo.cs
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.CoreCompileInputs.cache
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.csproj.CopyComplete
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.dll
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/refint/LyricsAPIClient.dll
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.pdb
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/LyricsAPIClient.genruntimeconfig.cache
+/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/obj/Debug/net6.0/ref/LyricsAPIClient.dll
