@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "I+CCjFDBH7SzQGirf+p+uTK160k7QCbvf8a2vNO1q8iP8CnB+6vw0usqtxymql0q70KCqFaCWTKVT941wf/QLg==",
+  "dgSpecHash": "HRfBV5KbO9iCPfMA0yXAHGusNWcAaABwb0hket7VBSN8TS3hoD6l9hjIrDzIvkaZNEkjC6MDETAI9QGPetDHrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mechak\\Documents\\Coding Projects\\Local Repos\\LyricsAPIClient\\LyricsAPIClient.csproj",
+  "projectFilePath": "/home/mechak/Documents/Programming/Git Repos/LyricsAPIClient/LyricsAPIClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mechak\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/mechak/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
