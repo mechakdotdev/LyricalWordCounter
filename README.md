@@ -1,4 +1,4 @@
-# LyricsAPIClient
+# LyricalWordCounter
 ## Required packages:
 - Netwonsoft.Json
 - .NET 6
