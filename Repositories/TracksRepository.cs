@@ -3,7 +3,7 @@ using Newtonsoft.Json.Linq;
 
 namespace LyricsAPIClient.Repositories
 {
-    public class Repository
+    public class TracksRepository
     {
         public static async Task<LyricsResponse> GetLyricsAsync(LyricsRequest lyricsRequest)
         {
@@ -63,27 +63,6 @@ namespace LyricsAPIClient.Repositories
                     throw new Exception($"No tracks were found for this artist. Please check the name you entered try again.");
                 }
             }
-        }
-
-        public static int GetWordCount(string lyrics)
-        {
-            int count = 0, i = 0;
-            bool isWord = false;
-
-            while (i < lyrics.Length)
-            {
-                if (char.IsWhiteSpace(lyrics[i]) || lyrics[i] == '\n' || lyrics[i] == '\t') {
-                    isWord = false;
-                }
-                else if (isWord == false) {
-                    isWord = true;
-                    count++;
-                }
-
-                i++;
-            }
-
-            return count;
         }
     }
 }

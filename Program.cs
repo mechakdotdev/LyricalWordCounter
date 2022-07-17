@@ -11,15 +11,15 @@ namespace LyricsAPIClient
             Console.Write("This program will find the mean (average) number of words in songs by an artist you choose.\n");
             Console.Write("Enter an artist name:\n");
 
-            var chosenArtist = Console.ReadLine();
+            var artist = Console.ReadLine();
 
-            while (chosenArtist == null)
+            while (artist == null)
             {
                 Console.WriteLine("You must enter an artist name:\n");
-                chosenArtist = Console.ReadLine();
+                artist = Console.ReadLine();
             }
             
-            await DetermineAverageWords(chosenArtist);
+            await DetermineAverageWords(artist);
         }
 
         private static async Task DetermineAverageWords(string artist)
@@ -27,7 +27,7 @@ namespace LyricsAPIClient
             var totalWords = 0;
             var numberOfSongs = 0;
 
-            var allTracks = await Repository.GetAllTracksAsync(artist);
+            var allTracks = await TracksRepository.GetAllTracksAsync(artist);
 
             if (allTracks.Data != null)
             {
@@ -39,12 +39,12 @@ namespace LyricsAPIClient
                         Title = track.Title
                     };
 
-                    var currentLyrics = await Repository.GetLyricsAsync(currentSong);
+                    var currentLyrics = await TracksRepository.GetLyricsAsync(currentSong);
 
                     if (currentLyrics.Lyrics != null)
                     {
                         numberOfSongs += 1;
-                        totalWords += Repository.GetWordCount(currentLyrics.Lyrics);
+                        totalWords += StringsRepository.GetWordCount(currentLyrics.Lyrics);
                     }
                 }
             }
